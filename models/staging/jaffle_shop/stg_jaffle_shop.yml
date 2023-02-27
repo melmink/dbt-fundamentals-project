@@ -22,13 +22,9 @@ models:
                 - shipped
                 - returned
                 - return_pending
-<<<<<<< HEAD
                 - placed
       - name: customer_id
         tests:
           - relationships:
               to: ref('stg_customers')
               field: customer_id
-=======
-                - placed
->>>>>>> 7f491095720de4fe3bf9675565a08a00ab055ffb
