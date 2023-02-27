@@ -1,1 +1,1 @@
-# dbt-projects
+# dbt-practice
