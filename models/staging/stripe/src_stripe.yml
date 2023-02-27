@@ -5,6 +5,7 @@ sources:
     database: dbt-tutorial
     schema: stripe
     tables:
+<<<<<<< HEAD
       - name: payment
       freshness:
       warn_after:
@@ -15,3 +16,10 @@ sources:
         period: hour
     loaded_at_field: _batched_at
       
+=======
+      - name: payments
+      loaded_at_field: _batched_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
+>>>>>>> 26b9281c3feada5b60dd2193582f3738592c5cf0
